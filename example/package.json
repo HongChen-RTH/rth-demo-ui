@@ -1,0 +1,31 @@
+{
+  "name": "@rth-demo-ui/example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.js"
+    },
+    "require": "./lib/index.js"
+  },
+  "scripts": {
+    "dev": "vite --mode dev",
+    "dev:uat": "vite --mode uat",
+    "dev:prod": "vite --mode prod",
+    "build:dev": "vue-tsc --noEmit && vite build --mode dev",
+    "build:uat": "vue-tsc --noEmit && vite build --mode uat",
+    "build:prod": "vue-tsc --noEmit && vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rth-demo-ui/rth-demo-ui": "workspace:*",
+    "element-plus": "^2.7.6",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2"
+  }
+}
