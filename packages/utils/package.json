@@ -1,7 +1,7 @@
 {
-  "name": "@rth-demo-ui/foo",
+  "name": "@rth-demo-ui/utils",
   "version": "1.0.0",
-  "description": "示例组件",
+  "description": "通用工具函数",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rth-demo-ui/utils": "workspace:*"
+    "mitt": "1.1.3"
   }
 }
