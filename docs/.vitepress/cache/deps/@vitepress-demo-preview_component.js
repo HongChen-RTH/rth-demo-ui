@@ -21,7 +21,7 @@ import {
 } from "./chunk-AJSN5E2F.js";
 import "./chunk-5WRI5ZAA.js";
 
-// ../node_modules/.pnpm/@vitepress-demo-preview+component@2.3.2_vitepress@1.3.0_@algolia+client-search@4.24.0_async-v_dbjgzsubsuid4t5wunw77zutey/node_modules/@vitepress-demo-preview/component/dist/preview-component.js
+// ../node_modules/.pnpm/@vitepress-demo-preview+component@2.3.2_vitepress@1.3.0_@algolia+client-search@4.24.0_@types+_eledmllrgadzn5632ee3gdevzu/node_modules/@vitepress-demo-preview/component/dist/preview-component.js
 var Z = (t, n) => {
   const e = t.__vccOpts || t;
   for (const [c, l] of n)
