@@ -13,12 +13,14 @@ export default defineComponent({
       console.log('点击按钮测试', props.msg)
       testLog(props.msg)
     }
-    return () => (
-      <div class={NAME}>
+    // return () => {
+    return (
+      < div class={NAME}>
         <h1>rth-demo-ui Foo</h1>
         <p class={NAME + '__description'}>msg is: {props.msg}</p>
         <button type='primary' onClick={onBtnClick}>点击我</button>
-      </div>
+      </div >
     )
+    // }
   }
 })

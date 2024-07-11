@@ -4,12 +4,17 @@
   "description": "组件库入口",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf ../../lib && vue-tsc --noEmit && vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rth-demo-ui/foo": "workspace:*"
+    "@rth-demo-ui/foo": "workspace:*",
+    "vite-plugin-tsx-resolve-types": "^0.0.2"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "vite-plugin-dts": "^3.9.1"
   }
 }

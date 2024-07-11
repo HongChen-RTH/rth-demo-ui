@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@rth-demo-ui/utils": "workspace:^",
+    "element-plus": "^2.7.6"
+  }
 }
