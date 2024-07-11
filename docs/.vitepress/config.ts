@@ -2,6 +2,7 @@ import { DefaultTheme } from 'vitepress'
 import { defineConfig } from 'vite'
 import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 import { components } from '../components'
+import minimist from 'minimist'
 
 const nav: DefaultTheme.NavItem[] = [
   { text: '指南', link: '/guide/' },
@@ -24,12 +25,13 @@ const sidebar: DefaultTheme.Sidebar = {
     ]
   }]
 }
+const argv = minimist(process.argv.slice(2))
+const build = argv.build || false
 
 export default defineConfig({
   // title: 'rth-admin-ui',
-  description: 'RTH Vue3企业级中后台组件库',
   lang: 'cn-ZH',
-  base: '/',
+  base: build ? '/rth-demo-ui/' : '/',
   head: [['link', { rel: 'icon', href: process.env.NODE_ENV === 'production' && !process.env.BUILD_VERCEL ? "/th-ui/logo.png" : '/logo.png' }]],
   lastUpdated: true,
   themeConfig: {
