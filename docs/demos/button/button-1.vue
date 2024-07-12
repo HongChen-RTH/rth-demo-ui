@@ -1,5 +1,5 @@
 <template>
-  <rth-button></rth-button>
+  <rth-button>66666</rth-button>
 </template>
 
 <script lang="ts" setup>

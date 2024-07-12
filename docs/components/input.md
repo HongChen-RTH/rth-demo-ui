@@ -3,7 +3,10 @@
 
 ## 基本使用
 
-<preview path="../demos/input/input-1.vue" title="基本使用" description=" "></preview>
+<preview path="../demos/input/disabled.vue" title="基本使用" description=" "></preview>
+<!-- <preview path="../demos/input/methods.vue" title="基本使用" description=" "></preview>
+<preview path="../demos/input/size.vue" title="基本使用" description=" "></preview>
+<preview path="../demos/input/slot.vue" title="基本使用" description=" "></preview> -->
 
 ## 组件 API
 

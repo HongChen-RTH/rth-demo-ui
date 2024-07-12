@@ -1,5 +1,4 @@
-import { DefaultTheme } from 'vitepress'
-import { defineConfig } from 'vite'
+import { DefaultTheme, defineConfig } from 'vitepress'
 import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 import { components } from '../components'
 import minimist from 'minimist'
@@ -29,10 +28,10 @@ const argv = minimist(process.argv.slice(2))
 const build = argv.build || false
 
 export default defineConfig({
-  // title: 'rth-admin-ui',
+  title: 'rth-admin-ui',
   lang: 'cn-ZH',
   base: build ? '/rth-demo-ui/' : '/',
-  head: [['link', { rel: 'icon', href: process.env.NODE_ENV === 'production' && !process.env.BUILD_VERCEL ? "/th-ui/logo.png" : '/logo.png' }]],
+  head: [['link', { rel: 'icon', href: process.env.NODE_ENV === 'production' && !process.env.BUILD_VERCEL ? "/rth-ui/logo.png" : '/logo.png' }]],
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',

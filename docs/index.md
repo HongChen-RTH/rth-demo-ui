@@ -6,8 +6,8 @@ titleTemplate: 选项卡描述
 editLink: true
 lastUpdated: true
 hero:
-  name: 组件库名称
-  text: 组件库中文名称
+  name: RTH-UI
+  text: 落墨诗卷
   tagline: 组件库描述 / SLOGAN
   image:
     src: /logo.png
