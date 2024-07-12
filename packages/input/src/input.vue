@@ -1,4 +1,9 @@
 <template>
+  <div class="f-around">
+    <div>test accss样式1</div>
+    <div>test accss样式2</div>
+    <div>test accss样式3</div>
+  </div>
   <div class="th-input" :class="{
     [`th-input--${type}`]: type,
     [`th-input--${size}`]: size,
@@ -115,6 +120,6 @@ defineExpose({
   ref: inputRef
 })
 </script>
-<style>
+<style lang="scss" scoped>
 @import './style.css'
 </style>
